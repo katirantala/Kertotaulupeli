@@ -12,7 +12,7 @@ Mikäli vastauksissa on virheitä, laskujen alapuolelle ilmestyy väärinlasketu
 Mikäli pelaaja ei ole ratkaissut ja tarkistanut laskuja ajastimen päättyessä, näyttöön ilmestyy teksti "Aika loppui! Yritä uudelleen!". 
 
 ## Asennus
-1. Kloonaa repository:  https://github.com/käyttäjä/kertotaulupeli.git
+1. Kloonaa repository: https://github.com/katirantala/Kertotaulupeli.git
 2. Avaa 'index.html' selaimessa.
    
 ## Käyttöohjeet
