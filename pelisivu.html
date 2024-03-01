@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Pelaa</title>
+</head>
+<body>
+    <p id="playerGreeting"></p>
+    <p>Minkä numeron kertotauluja haluat harjoitella? Kirjoita numero (0-10).</p>
+    <input type="number" id="multiplicationNumber" min="0" max="10"> <br>
+    <p>Aloita harjoittelu painamalla aloita. <br>
+        Testaa taitojasi painamalla ajastinta.<br>
+        Painamalla ajastinta peli käynnistyy ja <br>
+        sinulla on 2 minuuttia aikaa ratkaista 10 tehtävää.</p>
+    <button id="start_button" onclick="startTraining()">Aloita</button>
+    <button id="timer_button" onclick="startTimer()">Ajastin</button>
+        <p id="timer">00:00</p>
+        <p id="correctCount"></p>
+    <div id="exercises"></div> 
+    <br>
+    <div id="incorrectAnswers"></div>
+    <br> 
+    <p><a href="index.html">Palaa etusivulle</a></p>
+    <script src="./js/functionspelisivu.js"></script>
+</body>
+</html>
